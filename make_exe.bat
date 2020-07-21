@@ -1,0 +1,1 @@
+.\.env\Scripts\python.exe -m PyInstaller -F --clean --log-level INFO ./mp3rating.py
