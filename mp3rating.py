@@ -1,7 +1,7 @@
 from pathlib import Path
 import os, sys
 # windows for python38 "libvlc.dll" is necessary
-if sys.platform == 'windows':
+if sys.platform == 'Windows':
     os.add_dll_directory(r'C:\Program Files\VideoLAN\VLC')
 from tkinter import Tk, Frame, Listbox, filedialog, Button, END, Menu, IntVar
 from tkinter.ttk import Progressbar
